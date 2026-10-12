@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "base_probability_scanner",
+  "version": "${version}",
+  "name": "Base Probability Scanner",
+  "description": "Client-side heuristic scanner that outlines suspicious terrain regions.",
+  "authors": ["Base Probability Scanner"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.bps.BaseProbabilityScannerClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
